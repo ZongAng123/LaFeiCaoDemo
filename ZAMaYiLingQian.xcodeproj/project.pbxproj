@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68F8A2CE4A109C46A98FEE6B /* libPods-ZAMaYiLingQian.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D92D2461D71C56F987FC90F /* libPods-ZAMaYiLingQian.a */; };
+		742C5C40227E8E2800877721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C5C3F227E8E2800877721 /* AppDelegate.m */; };
+		742C5C43227E8E2800877721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C5C42227E8E2800877721 /* ViewController.m */; };
+		742C5C46227E8E2800877721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742C5C44227E8E2800877721 /* Main.storyboard */; };
+		742C5C48227E8E2900877721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742C5C47227E8E2900877721 /* Assets.xcassets */; };
+		742C5C4B227E8E2900877721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742C5C49227E8E2900877721 /* LaunchScreen.storyboard */; };
+		742C5C4E227E8E2900877721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C5C4D227E8E2900877721 /* main.m */; };
+		742C5C58227E8E2900877721 /* ZAMaYiLingQianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C5C57227E8E2900877721 /* ZAMaYiLingQianTests.m */; };
+		742C5C63227E8E2900877721 /* ZAMaYiLingQianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C5C62227E8E2900877721 /* ZAMaYiLingQianUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		742C5C54227E8E2900877721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742C5C33227E8E2800877721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742C5C3A227E8E2800877721;
+			remoteInfo = ZAMaYiLingQian;
+		};
+		742C5C5F227E8E2900877721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742C5C33227E8E2800877721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742C5C3A227E8E2800877721;
+			remoteInfo = ZAMaYiLingQian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D92D2461D71C56F987FC90F /* libPods-ZAMaYiLingQian.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZAMaYiLingQian.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742C5C3B227E8E2800877721 /* ZAMaYiLingQian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZAMaYiLingQian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		742C5C3E227E8E2800877721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		742C5C3F227E8E2800877721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		742C5C41227E8E2800877721 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		742C5C42227E8E2800877721 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		742C5C45227E8E2800877721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		742C5C47227E8E2900877721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		742C5C4A227E8E2900877721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		742C5C4C227E8E2900877721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742C5C4D227E8E2900877721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		742C5C53227E8E2900877721 /* ZAMaYiLingQianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAMaYiLingQianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		742C5C57227E8E2900877721 /* ZAMaYiLingQianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAMaYiLingQianTests.m; sourceTree = "<group>"; };
+		742C5C59227E8E2900877721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742C5C5E227E8E2900877721 /* ZAMaYiLingQianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAMaYiLingQianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		742C5C62227E8E2900877721 /* ZAMaYiLingQianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAMaYiLingQianUITests.m; sourceTree = "<group>"; };
+		742C5C64227E8E2900877721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5DBE358AD5E3D7C73EE540 /* Pods-ZAMaYiLingQian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAMaYiLingQian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZAMaYiLingQian/Pods-ZAMaYiLingQian.debug.xcconfig"; sourceTree = "<group>"; };
+		A605FC484BFD854D03CE7856 /* Pods-ZAMaYiLingQian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZAMaYiLingQian.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZAMaYiLingQian/Pods-ZAMaYiLingQian.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		742C5C38227E8E2800877721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F8A2CE4A109C46A98FEE6B /* libPods-ZAMaYiLingQian.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742C5C50227E8E2900877721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742C5C5B227E8E2900877721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F5F5AEDDAC8F3D8540F1B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A5DBE358AD5E3D7C73EE540 /* Pods-ZAMaYiLingQian.debug.xcconfig */,
+				A605FC484BFD854D03CE7856 /* Pods-ZAMaYiLingQian.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6734F5980E2C04C4A9F24718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D92D2461D71C56F987FC90F /* libPods-ZAMaYiLingQian.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		742C5C32227E8E2800877721 = {
+			isa = PBXGroup;
+			children = (
+				742C5C3D227E8E2800877721 /* ZAMaYiLingQian */,
+				742C5C56227E8E2900877721 /* ZAMaYiLingQianTests */,
+				742C5C61227E8E2900877721 /* ZAMaYiLingQianUITests */,
+				742C5C3C227E8E2800877721 /* Products */,
+				45F5F5AEDDAC8F3D8540F1B6 /* Pods */,
+				6734F5980E2C04C4A9F24718 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		742C5C3C227E8E2800877721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				742C5C3B227E8E2800877721 /* ZAMaYiLingQian.app */,
+				742C5C53227E8E2900877721 /* ZAMaYiLingQianTests.xctest */,
+				742C5C5E227E8E2900877721 /* ZAMaYiLingQianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		742C5C3D227E8E2800877721 /* ZAMaYiLingQian */ = {
+			isa = PBXGroup;
+			children = (
+				742C5C3E227E8E2800877721 /* AppDelegate.h */,
+				742C5C3F227E8E2800877721 /* AppDelegate.m */,
+				742C5C41227E8E2800877721 /* ViewController.h */,
+				742C5C42227E8E2800877721 /* ViewController.m */,
+				742C5C44227E8E2800877721 /* Main.storyboard */,
+				742C5C47227E8E2900877721 /* Assets.xcassets */,
+				742C5C49227E8E2900877721 /* LaunchScreen.storyboard */,
+				742C5C4C227E8E2900877721 /* Info.plist */,
+				742C5C4D227E8E2900877721 /* main.m */,
+			);
+			path = ZAMaYiLingQian;
+			sourceTree = "<group>";
+		};
+		742C5C56227E8E2900877721 /* ZAMaYiLingQianTests */ = {
+			isa = PBXGroup;
+			children = (
+				742C5C57227E8E2900877721 /* ZAMaYiLingQianTests.m */,
+				742C5C59227E8E2900877721 /* Info.plist */,
+			);
+			path = ZAMaYiLingQianTests;
+			sourceTree = "<group>";
+		};
+		742C5C61227E8E2900877721 /* ZAMaYiLingQianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				742C5C62227E8E2900877721 /* ZAMaYiLingQianUITests.m */,
+				742C5C64227E8E2900877721 /* Info.plist */,
+			);
+			path = ZAMaYiLingQianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		742C5C3A227E8E2800877721 /* ZAMaYiLingQian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742C5C67227E8E2900877721 /* Build configuration list for PBXNativeTarget "ZAMaYiLingQian" */;
+			buildPhases = (
+				F6D3AA6C0FC2E966A6AFE329 /* [CP] Check Pods Manifest.lock */,
+				742C5C37227E8E2800877721 /* Sources */,
+				742C5C38227E8E2800877721 /* Frameworks */,
+				742C5C39227E8E2800877721 /* Resources */,
+				6EBF28C2556F9E2254435DF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZAMaYiLingQian;
+			productName = ZAMaYiLingQian;
+			productReference = 742C5C3B227E8E2800877721 /* ZAMaYiLingQian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		742C5C52227E8E2900877721 /* ZAMaYiLingQianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742C5C6A227E8E2900877721 /* Build configuration list for PBXNativeTarget "ZAMaYiLingQianTests" */;
+			buildPhases = (
+				742C5C4F227E8E2900877721 /* Sources */,
+				742C5C50227E8E2900877721 /* Frameworks */,
+				742C5C51227E8E2900877721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				742C5C55227E8E2900877721 /* PBXTargetDependency */,
+			);
+			name = ZAMaYiLingQianTests;
+			productName = ZAMaYiLingQianTests;
+			productReference = 742C5C53227E8E2900877721 /* ZAMaYiLingQianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		742C5C5D227E8E2900877721 /* ZAMaYiLingQianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742C5C6D227E8E2900877721 /* Build configuration list for PBXNativeTarget "ZAMaYiLingQianUITests" */;
+			buildPhases = (
+				742C5C5A227E8E2900877721 /* Sources */,
+				742C5C5B227E8E2900877721 /* Frameworks */,
+				742C5C5C227E8E2900877721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				742C5C60227E8E2900877721 /* PBXTargetDependency */,
+			);
+			name = ZAMaYiLingQianUITests;
+			productName = ZAMaYiLingQianUITests;
+			productReference = 742C5C5E227E8E2900877721 /* ZAMaYiLingQianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		742C5C33227E8E2800877721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "纵昂";
+				TargetAttributes = {
+					742C5C3A227E8E2800877721 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					742C5C52227E8E2900877721 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 742C5C3A227E8E2800877721;
+					};
+					742C5C5D227E8E2900877721 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 742C5C3A227E8E2800877721;
+					};
+				};
+			};
+			buildConfigurationList = 742C5C36227E8E2800877721 /* Build configuration list for PBXProject "ZAMaYiLingQian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 742C5C32227E8E2800877721;
+			productRefGroup = 742C5C3C227E8E2800877721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				742C5C3A227E8E2800877721 /* ZAMaYiLingQian */,
+				742C5C52227E8E2900877721 /* ZAMaYiLingQianTests */,
+				742C5C5D227E8E2900877721 /* ZAMaYiLingQianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		742C5C39227E8E2800877721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742C5C4B227E8E2900877721 /* LaunchScreen.storyboard in Resources */,
+				742C5C48227E8E2900877721 /* Assets.xcassets in Resources */,
+				742C5C46227E8E2800877721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742C5C51227E8E2900877721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742C5C5C227E8E2900877721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EBF28C2556F9E2254435DF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZAMaYiLingQian/Pods-ZAMaYiLingQian-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZAMaYiLingQian/Pods-ZAMaYiLingQian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D3AA6C0FC2E966A6AFE329 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZAMaYiLingQian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742C5C37227E8E2800877721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742C5C43227E8E2800877721 /* ViewController.m in Sources */,
+				742C5C4E227E8E2900877721 /* main.m in Sources */,
+				742C5C40227E8E2800877721 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742C5C4F227E8E2900877721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742C5C58227E8E2900877721 /* ZAMaYiLingQianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742C5C5A227E8E2900877721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742C5C63227E8E2900877721 /* ZAMaYiLingQianUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		742C5C55227E8E2900877721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742C5C3A227E8E2800877721 /* ZAMaYiLingQian */;
+			targetProxy = 742C5C54227E8E2900877721 /* PBXContainerItemProxy */;
+		};
+		742C5C60227E8E2900877721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742C5C3A227E8E2800877721 /* ZAMaYiLingQian */;
+			targetProxy = 742C5C5F227E8E2900877721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		742C5C44227E8E2800877721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742C5C45227E8E2800877721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		742C5C49227E8E2900877721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742C5C4A227E8E2900877721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		742C5C65227E8E2900877721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		742C5C66227E8E2900877721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		742C5C68227E8E2900877721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5DBE358AD5E3D7C73EE540 /* Pods-ZAMaYiLingQian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FA8WLF42;
+				INFOPLIST_FILE = ZAMaYiLingQian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.ZAMaYiLingQian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		742C5C69227E8E2900877721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A605FC484BFD854D03CE7856 /* Pods-ZAMaYiLingQian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FA8WLF42;
+				INFOPLIST_FILE = ZAMaYiLingQian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.ZAMaYiLingQian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		742C5C6B227E8E2900877721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FA8WLF42;
+				INFOPLIST_FILE = ZAMaYiLingQianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.ZAMaYiLingQianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZAMaYiLingQian.app/ZAMaYiLingQian";
+			};
+			name = Debug;
+		};
+		742C5C6C227E8E2900877721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FA8WLF42;
+				INFOPLIST_FILE = ZAMaYiLingQianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.ZAMaYiLingQianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZAMaYiLingQian.app/ZAMaYiLingQian";
+			};
+			name = Release;
+		};
+		742C5C6E227E8E2900877721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FA8WLF42;
+				INFOPLIST_FILE = ZAMaYiLingQianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.ZAMaYiLingQianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZAMaYiLingQian;
+			};
+			name = Debug;
+		};
+		742C5C6F227E8E2900877721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FA8WLF42;
+				INFOPLIST_FILE = ZAMaYiLingQianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.ZAMaYiLingQianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZAMaYiLingQian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		742C5C36227E8E2800877721 /* Build configuration list for PBXProject "ZAMaYiLingQian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742C5C65227E8E2900877721 /* Debug */,
+				742C5C66227E8E2900877721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742C5C67227E8E2900877721 /* Build configuration list for PBXNativeTarget "ZAMaYiLingQian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742C5C68227E8E2900877721 /* Debug */,
+				742C5C69227E8E2900877721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742C5C6A227E8E2900877721 /* Build configuration list for PBXNativeTarget "ZAMaYiLingQianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742C5C6B227E8E2900877721 /* Debug */,
+				742C5C6C227E8E2900877721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742C5C6D227E8E2900877721 /* Build configuration list for PBXNativeTarget "ZAMaYiLingQianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742C5C6E227E8E2900877721 /* Debug */,
+				742C5C6F227E8E2900877721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 742C5C33227E8E2800877721 /* Project object */;
+}

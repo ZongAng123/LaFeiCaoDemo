@@ -1,0 +1,7 @@
+platform :ios, '10.0'
+target 'ZAMaYiLingQian' do
+pod 'AFNetworking'
+pod 'SVProgressHUD'
+pod 'IQKeyboardManager'
+pod 'SDWebImage'
+end
